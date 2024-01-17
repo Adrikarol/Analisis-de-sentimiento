@@ -4,6 +4,7 @@ Este repositorio contiene el código y análisis realizados para un proyecto de 
 
 ## Contenido del Proyecto
 
+
 El proyecto se organiza en varias secciones, cada una abordando aspectos específicos del análisis de sentimientos y la construcción de modelos predictivos. A continuación, se presenta un resumen de las secciones clave:
 
 ### Preprocesamiento de Datos
@@ -25,5 +26,5 @@ Se comparan los resultados de diferentes modelos en términos de métricas de ev
 ## Estructura del Repositorio
 
 - **src/**: Contiene los scripts y notebooks de código fuente utilizados para realizar el análisis y entrenar los modelos.
-- **data/**: Almacena el conjunto de datos original y las reseñas de prueba.
-- **README.md**: Este archivo, que proporciona una guía detallada sobre el proyecto, sus objetivos y la estructura del repositorio.
+- **data/**: Almacena el conjunto de textos lematizados en spaCy y NLTK, el conjunto de datos de IMDB es muy pesado y por lo mismo no estan disponible al igual que los insertados de  BERT.
+- **README.md**: Este archivo, proporciona una guía detallada sobre el proyecto, sus objetivos y la estructura del repositorio.
